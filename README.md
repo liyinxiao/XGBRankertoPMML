@@ -1,4 +1,4 @@
-# XGBRankertoPMML
+# XGBRanker2PMML
 
 
 The existing sklearn2pmml library (https://github.com/jpmml/sklearn2pmml) does not support XGBRanker. The goal is to slightly modify sklearn2pmml library (with minimum efforts), to get around it and support converting XGBRanker model pipeline to pmml. It supports objective='rank:pairwise' and objective='rank:ndcg'.
