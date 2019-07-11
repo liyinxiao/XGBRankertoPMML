@@ -21,3 +21,6 @@ pipeline = Pipeline([
 pmmlpipeline = make_pmml_pipeline(pipeline, target_fields=['score']) 
 sklearn2pmml(pmmlpipeline, "Model.xml")
 ```
+
+PS:
+I shared what I did in this issue https://github.com/jpmml/jpmml-sklearn/issues/105, and the author decided to support XGBRanker officially. 
